@@ -20,8 +20,7 @@
 
     ![](https://i.postimg.cc/YCWm1NQ6/1-1.png)
 
--   到 Git executable 設定git.exe的存放目錄 
-    ![](https://i.postimg.cc/c4NQXb4D/1-2.png)
+-   到 Git executable 設定git.exe的存放目錄 ![](https://i.postimg.cc/c4NQXb4D/1-2.png)
 
 ## 下載 GitHub 中 R教學專案 至本地端
 
