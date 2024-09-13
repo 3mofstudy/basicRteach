@@ -104,29 +104,5 @@ difftime( Sys.Date(), as.Date("2022-12-07"),units= "auto")
 # units = c("auto", "secs", "mins", "hours","days", "weeks"))
 
 
-## 日期語系轉換
-
-### 方法一 直接使用 lubridate套件
-ymd("2018 Apr 18")
-mdy("Apr 18 23" )
-
-### 方法二 更換輸出語系，再轉換
-Sys.setlocale()  ##查詢當下語系
-
-#設置語言為英語
-Sys.setlocale("LC_TIME", locale ="en.UTF-8")  
-as.Date("Aug 3, 2024",tryFormats="%b %d, %Y")  
-
-#設置語言為日本語
-Sys.setlocale("LC_TIME", locale ="ja_JP.UTF-8") 
-format(as.Date("12 3, 2024",tryFormats="%m %d, %Y")  ,"%A") 
-
-#設置語言為韓國語
-Sys.setlocale("LC_TIME", locale ="ko_KR.UTF-8") 
-format(as.Date("12 3, 2024",tryFormats="%m %d, %Y")  ,"%A")   
-
-#設置語言為法文語
-Sys.setlocale("LC_TIME", locale ="fr_FR.UTF-8") 
-format(as.Date("12 3, 2024",tryFormats="%m %d, %Y")  ,"%A") 
 
 

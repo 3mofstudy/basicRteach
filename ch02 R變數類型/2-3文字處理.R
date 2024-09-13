@@ -56,10 +56,7 @@ str_split_fixed(dd,",",n=3)
 str_split_i(dd,",",2 )
 
 
-#舉例
-##轉成純文字 因為這個檔的時間不可以這樣寫要換成純文字才可以讀
-##death_notify$DEATHDAY <-  as.character(death_notify$DEATHDAY)
-##死因12為口腔癌$DEATHDAY <-  as.character(死因12為口腔癌$DEATHDAY)  
+
 
 
 
